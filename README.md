@@ -6,6 +6,7 @@
 
 ### Visual Representation App
 ![weather-app](./blog-app.gif)
+
 #### Try it yourself ?
 Clone or download and:
 ```
