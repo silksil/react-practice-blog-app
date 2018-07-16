@@ -1,3 +1,99 @@
-form a {
+
+.container {
+  margin-top: 10%;
+}
+
+.top-container {
+  margin-bottom: 10%;
+}
+
+.txt-hashtag {
+  color: grey;
+}
+
+.btn {
+  margin-top: 5%;
+  width: 120px;
+  height: 45px;
+  display: inline-block;
+  position: relative;
+  padding: 20px 38px;
+  top: 0;
+  font-size: 30px;
+  font-family: "Open Sans", Helvetica;
+  border-radius: 25px;
+  color: #fff;
+  border-bottom: 1px solid rgba( 28, 227, 125, 0.5 );
+  background: rgba( 22, 230, 137, 1 );
+  box-shadow: 0px 0px 0px rgba( 15, 165, 60, 0.1 );
+  -webkit-transform: translateZ(0);
+     -moz-transform: translateZ(0);
+      -ms-transform: translateZ(0);
+          transform: translateZ(0);
+  -webkit-transition: all 0.2s ease;
+     -moz-transition: all 0.2s ease;
+      -ms-transition: all 0.2s ease;
+          transition: all 0.2s ease;
+}
+
+.btn:hover {
+  top: -10px;
+  box-shadow: 0px 10px 10px rgba( 15, 165, 60, 0.2 );
+
+  -webkit-transform: rotateX(20deg);
+     -moz-transform: rotateX(20deg);
+      -ms-transform: rotateX(20deg);
+          transform: rotateX(20deg);
+}
+
+.btn:active {
+  top: 0px;
+  box-shadow: 0px 0px 0px rgba( 15, 165, 60, 0.0 );
+  background: rgba( 20, 224, 133, 1 );
+}
+
+.btn-send {
+  border-bottom: 1px solid rgba( 28, 227, 125, 0.5 );
+  background: rgba( 22, 230, 137, 1 );
+  background-image: url(paper-airplane-icon.png);
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+.btn-cancel {
+  background: white;
+  margin-left: 15px;
+  background-image: url(exit-icon.png);
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 1px solid lightgrey !important;
+}
+
+ form a {
   margin-left: 5px;
 }
+
+.loader {
+  margin: auto auto;
+  margin-top: 50%;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+} */
