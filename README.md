@@ -6,7 +6,7 @@
 - Notes in relation to components can be found in my [React component cheatsheet folder](https://github.com/silksil/best-practices-cheatsheets/tree/master/client/react/example-components).
 
 ### Visual Representation App
-![weather-app](./blog-app.gif)
+![blog-app](./blog-app.gif)
 
 #### Try it yourself ?
 Clone or download and:
