@@ -1,5 +1,6 @@
 # Blog App
 - Build while following the course [React-Redux](https://www.udemy.com/react-redux/).
+- Project is build on [this boilerplate](https://github.com/StephenGrider/ReduxSimpleStarter).
 - App makes use of the by the course provided API to store data on the server.
 - Aim of this project was to get a basic understanding of React and Redux.
 - Little effort has been put into styling, as this was not the main goal.
