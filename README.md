@@ -7,7 +7,7 @@
 - Notes in relation to components can be found in my [React component cheatsheet folder](https://github.com/silksil/best-practices-cheatsheets/tree/master/client/react/example-components).
 
 ### Visual Representation App
-<img align="center" src="./blog-app.gif" width="20%" alt="blog-app"/>
+<img align="center" src="./blog-app.gif" width="30%" alt="blog-app"/>
 
 #### Try it yourself ?
 Clone or download and:
